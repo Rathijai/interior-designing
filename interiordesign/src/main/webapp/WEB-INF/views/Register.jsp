@@ -18,7 +18,7 @@
 <body>
   
 <h1> Registration Form</h1>
-<form:form action="register" method="post" commandName="Register"  >
+<form:form action="Register" method="post" commandName="Register"  >
 
 			<table style="width: 50%">
 			<tr>
