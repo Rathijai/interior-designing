@@ -7,7 +7,6 @@
 
 
 <html lang="en">
-
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,17 +18,16 @@
 <body>
   
 <h1> Registration Form</h1>
-
-<form:form action="Register" method="post" commandName="Register"  >
+<form:form action="register" method="post" commandName="Register"  >
 
 			<table style="width: 50%">
 			<tr>
-					<td>User ID</td>
+					<td>User id</td>
 					<td><input type="text" name="userid" /></td>
 				</tr>
 				<tr>
-					<td>Name</td>
-					<td><input type="text" name="name" /></td>
+					<td>User Name</td>
+					<td><input type="text" name="username" /></td>
 				</tr>
 				
 				<tr>
@@ -39,20 +37,22 @@
 					<tr>
 					<td>Password</td>
 					<td><input type="password" name="password" /></td>
-				</tr>
+					</tr>
 				<tr>
-					<td>Confirm Password</td>
+					<td>ConfirmPassword</td>
 					<td><input type="password" name="confirmpassword" /></td>
 				</tr>
-				
+				<tr>
+					<td>Address</td>
+					<td><input type="text" name="addrs" /></td>
+				</tr>
 				<tr>
 					<td>Mobile No</td>
-					<td><input type="text" name="mobile" /></td>
+					<td><input type="text" name="mobno" /></td>
 				</tr>
 			</table>
 			
 			<input type="submit" value="Submit" />
 </form:form>
-
-</body>
+					</body>
 </html>

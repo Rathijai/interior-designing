@@ -17,13 +17,13 @@ public class HomeController
 	public String Login()
 	{
 	return "Login";
-	}
+	}*/
 	@RequestMapping("/Register")
 	  public String Register()
 	  {
 	  return "Register";
 	  }
-	*/
+	
   @RequestMapping("/Admin")
     public String Admin()
    {
