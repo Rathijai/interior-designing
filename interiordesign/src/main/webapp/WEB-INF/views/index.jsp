@@ -50,12 +50,12 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="Admin">Admin</a></li>
-        <li><a href="#">aboutus</a></li>
+        <li><a href="Aboutus">aboutus</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        <li><a href="register"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
+        <li><a href="Register"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
       </ul>
     </div>
   </div>
@@ -120,8 +120,11 @@
 
 <footer class="container-fluid text-center">
  <ul class="nav navbar-nav navbar-right">
- <li> <a href="#"><i class="fa fa-facebook-square" style="font-size:48px;color:red"></i></li>
- <li><a href="#"> <i class="fa fa-twitter-square" style="font-size:48px;color:blue"></i></li>
+ <a href="https://web.facebook.com/iamgurdeeposahan" target="_blank" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/gurdeeposahan/" target="_blank" class="fa fa-instagram"></a>
+<a href="https://twitter.com/gurdeeposahan1" target="_blank" class="fa fa-twitter"></a>
+<a href="https://plus.google.com/u/0/105032594920038016998" target="_blank" class="fa fa-google"></a>
+ >
 </ul>
 </footer>
 

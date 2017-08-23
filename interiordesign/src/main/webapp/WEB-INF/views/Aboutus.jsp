@@ -7,8 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1><a href ="ViewProduct"> ViewProduct</a> </h1> 
-  <h1><a href ="AddProduct">addproduct</a> </h1>
-  
+hai  
+
+<h1>thi is about us page ...<h1>
+
+
 </body>
 </html>
