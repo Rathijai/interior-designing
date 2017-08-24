@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  
+  <body background="https://s-media-cache-ak0.pinimg.com/originals/83/0c/9d/830c9d239bc8877e21bcca8f45a7d7e3.jpg">
 <h1> Add Product Form</h1>
 
 <form:form action="AddProduct" method="post" modelAttribute="product" enctype="multipart/form-data">

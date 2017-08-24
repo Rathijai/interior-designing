@@ -23,10 +23,11 @@
 <div class="span12" style="text-align: justify; font-size: large; color:silver;">
  <div ng-app="showProduct" ng-controller="ProductController">
  <br/><br/>
+ 
 Search:<input type=text placeholder="Search" ng-model="searchText"/>
-<div id="headin2"><strong> <h3 align="center">Product List </h3></strong></div>
+<div id="headin2"><strong> <h3 align="center">Product... </h3></strong></div>
 <div align="center">
-<table bgcolor="#00FF00" width=\"100%\" border=\"0\" id=\"tab\" >
+<table bgcolor="#FF0000" width=\"100%\" border=\"0\" id=\"tab\" >
 <tr>         <th bgcolor="white" id=\"td1\">PRODUCT ID</th>
 			 <th bgcolor="white" id=\"td2\">PRODUCT NAME</th>
              <th id=\"td3\" bgcolor="white">PRODUT DESC</th>

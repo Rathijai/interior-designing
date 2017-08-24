@@ -35,6 +35,11 @@ public String AboutUs()
 {
 return "Aboutus";
 }	
-	
+  @RequestMapping("/contactus")
+  public String contactus()
+  {
+  return "contactus";
+  }	
+  	
 	
 }

@@ -7,10 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-hai  
 
-<h1>thi is about us page ...<h1>
 
+<h1><i>Interior designing....</i><h1>
+<h2> Interior design is the art and science of enhancing the interiors, sometimes including the exterior, of a space or building, to achieve a healthier and more aesthetically pleasing environment for the end user</h2>
+<p>Our Design provides a soul to a building or space and makes a space more functional pleasant and livable</p>
 
 </body>
 </html>
