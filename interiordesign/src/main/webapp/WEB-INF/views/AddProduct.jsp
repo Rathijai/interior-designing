@@ -17,16 +17,13 @@
 </head>
 
 <body>
-  <body background="https://s-media-cache-ak0.pinimg.com/originals/83/0c/9d/830c9d239bc8877e21bcca8f45a7d7e3.jpg">
+  
 <h1> Add Product Form</h1>
 
 <form:form action="AddProduct" method="post" modelAttribute="product" enctype="multipart/form-data">
 
 			<table style="width: 50%">
-			<tr>
-					<td>Product ID</td>
-					<td><input type="text" name="pid" /></td>
-				</tr>
+			
 				<tr>
 					<td>Product Name</td>
 					<td><input type="text" name="pname" /></td>
@@ -36,10 +33,7 @@
 					<td>Supplier ID</td>
 					<td><input type="text" name="sid" /></td>
 				</tr>
-					<tr>
-					<td>Category ID</td>
-					<td><input type="text" name="pid" /></td>
-				</tr>
+					
 				<tr>
 					<td>Product Description</td>
 					<td><input type="text" name="pdesc" /></td>

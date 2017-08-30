@@ -34,14 +34,7 @@ System.out.println("Register DAO");
 	
 System.out.println(r.getUsername());
 	
-/*UserCredential uc=new ();
-	
-uc.setUsername(r.getUsername());
-	
-uc.setPassword(r.getPassword());
-	
-System.out.println("User Credentials");*/
-	
+
 try
 	
 {

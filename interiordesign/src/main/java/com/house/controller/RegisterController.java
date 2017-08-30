@@ -25,128 +25,6 @@ public class RegisterController
 @Autowired
 RegisterDao rdao;
 	
-//@Autowired
-	
-/*ProductDAO pdao;
-
-	
-@SuppressWarnings("unchecked")
-	
-@RequestMapping(value = "/loginsuccess")
-	
-public String login_session_attributes(HttpSession session,Model model) 
-	
-{
-		
-System.out.println("Hai..Am");
-		
-String userid = SecurityContextHolder.getContext().getAuthentication().getName();
-		
-		
-Collection<GrantedAuthority> authorities = (Collection<GrantedAuthority>) SecurityContextHolder.getContext().getAuthentication().getAuthorities();
-
-		String page="";
-		
-		
-String role="ROLE_USER";
-		
-for (GrantedAuthority authority:authorities) 
-		
-{
-		 
-System.out.println(authority.getAuthority());
-		   
-  if (authority.getAuthority().equals(role)) 
-		    
- {
-		    	 
-		    	
- session.setAttribute("UserLoggedIn", "true");
-		    	
- session.setAttribute("Username", userid);
-		    	
- page="FullProduct";
-		    	
- ArrayList list=(ArrayList)pdao.showProduct();
-		    	
- Gson gson = new Gson();
-		    	 
-String jsonInString=gson.toJson(list);
-		    	
- model.addAttribute("list",jsonInString);
-		    	 
-ArrayList<Cart> cartitem=new ArrayList<Cart>();
-		    	
- session.setAttribute("mycart", cartitem);
-		    	 
-		    	
- break;
-		    
- }
-		    
- else 
-		    
- {
-		    	
- session.setAttribute("LoggedIn", "true");
-		    	
- session.setAttribute("Administrator", "true");
-		    	
- page="Admin";
-		    	
- break;
-		    
-}
-		
-}
-		
-return page;
-	
-}*/
-
-			
-
-
-//-----------------------------------------------------------------------------
-
-	/*@RequestMapping("/Admin")
-	
-public String showAdmin() 
-	
-{
-			
-System.out.println("Admin");	
-				
-return "Admin";
-
-	}	*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @RequestMapping(value="Register", method=RequestMethod.GET)
 	
@@ -166,11 +44,9 @@ return model;
 public ModelAndView Success(Register reg, Model m)
 	
 {
-	System.out.println("100");
+	
       rdao.addUser(reg);
-      System.out.println("10");
-			
-     ModelAndView model=new ModelAndView("index","Register", new Register());
+       ModelAndView model=new ModelAndView("index","Register", new Register());
 			
            return model;
 	

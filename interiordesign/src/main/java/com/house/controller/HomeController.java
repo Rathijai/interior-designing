@@ -13,11 +13,11 @@ public class HomeController
 	return "index";
 	}
 
-	/*@RequestMapping("/Login")
+	@RequestMapping("/Login")
 	public String Login()
 	{
 	return "Login";
-	}*/
+	}
 	@RequestMapping("/Register")
 	  public String Register()
 	  {

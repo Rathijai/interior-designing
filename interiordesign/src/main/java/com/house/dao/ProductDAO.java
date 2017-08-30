@@ -32,7 +32,7 @@ public class ProductDAO {
 		System.out.println("81");
 		tx.commit();
 		System.out.println("82");
-		//session.flush();
+		
 		System.out.println("99");
 		session.close();
 		System.out.println("85");

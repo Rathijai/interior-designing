@@ -110,7 +110,7 @@ System.out.println("100");
 		return mv;
 	}
 	
-/*	@RequestMapping(value="/FullProduct",method=RequestMethod.GET)
+	@RequestMapping(value="/FullProduct",method=RequestMethod.GET)
 	public String userview(Model m)
 	{
 		System.out.println("Hello");
@@ -135,7 +135,7 @@ System.out.println("100");
 		
 	}
 	
-
+/*
 	@RequestMapping(value="/AddToCart",method=RequestMethod.GET)
 	public ModelAndView addtocart(@RequestParam("addpid")int pid,Model m)
 	{

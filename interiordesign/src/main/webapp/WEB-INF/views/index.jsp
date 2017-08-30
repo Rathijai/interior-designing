@@ -53,10 +53,14 @@
         <li><a href="Admin">Admin</a></li>
         <li><a href="Aboutus">Aboutus</a></li>
         <li><a href="contactus">Contact</a></li>
+        <li><a href="FullProduct">products</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
-        <li><a href="Register"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
+        <li><a href="Register"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+        
+        
+        
       </ul>
     </div>
   </div>

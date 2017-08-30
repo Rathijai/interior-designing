@@ -51,6 +51,10 @@
   <div id="myDropdown" class="dropdown-content">
     <a href="ViewProduct">ViewProduct</a>
     <a href="AddProduct">AddProduct</a>
+    <a href="AddCategory">category</a>
+    <a href="ViewCategory">viewcategory</a>
+    <a href="AddSupplier">supplier</a>
+    <a href="ViewSupplier">viewsupplier</a>
     
   </div>
 </div>

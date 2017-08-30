@@ -130,6 +130,12 @@
     <artifactId>jersey-multipart</artifactId>
     <version>1.19</version>
 </dependency>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
 		
 
 <!-- https://mvnrepository.com/artifact/jstl/jstl 
